@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
 <head>
   <meta charset='utf-8'>
@@ -86,3 +87,95 @@
 
 </body>
 </html>
+=======
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Magic Bingo Ball</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="stylesheet" media="screen" href="http://assets.needium.com/lib/bootstrap/1.4.0/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Aclonica:regular&subset=latin" media="screen">
+	<style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+       /* Cordonnier Injections */
+    h1,h2,h3,h4,h5,h6,.brand{font-family:Aclonica}
+	/* todo: fix this */
+	.topbar *{color:#000000!important}
+	
+	.topbar-inner,.topbar .fill{
+	color:#000000;
+	background-color:#ddd;
+	background-repeat:repeat-x;
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ddd),color-stop(100%,#ddd));
+	background-image:-webkit-linear-gradient(top,#fdfdfd,#ddd);
+
+}
+body{background:#111;padding-top:60px;}
+.btn{    font-family:Aclonica;}
+    #ball{font-size:100px;line-height:400px;width:400px;height:400px;background:#fff;border-radius:400px;text-align:center;margin-left:270px;
+        font-family:Aclonica;margin-top:50px;
+        -webkit-box-shadow:inset 0 0 90px #999;
+    }
+    #used{
+        display:block;float:left;
+        width:940px;height:400px;margin:50px 0;padding:10px 0;
+        background:#333;-webkit-box-shadow:inset 0 0 13px #000;
+    }
+    #used .ball{
+        display:inline-block;float:left;
+        width:40px;height:40px;line-height:40px;font-size:15px;text-align:center;
+        background:#fff;font-family:Aclonica;border-radius:40px;
+        -webkit-box-shadow:0 0 5px #000;margin:5px;
+    }
+    .letter{color:#999;font-size:0.5em}
+	</style>
+
+    <!-- 
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="#">Ariane Pichette's Magic Bingo Ball</a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="ball">
+      </div>     
+      <div id="used">
+      </div>
+      <div class="row">
+          <div class="span8 offset4">
+            <button id="shake-btn" class="pull-right btn large primary">SHAKE</button><button id="reset-btn" class="btn large danger">RESET</button>
+          </div>
+          <p></p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <script src="http://assets.needium.com/lib/jquery/1.7.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>  
+    <script src="vendor/jquery.ios-shake/jquery.ios-shake.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/magic-bingo-ball.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
+>>>>>>> master
